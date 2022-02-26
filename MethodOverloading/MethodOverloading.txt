@@ -1,0 +1,29 @@
+MethodOverloading:-->
+
+Within the class multiple method with a same name but difference in method signature.
+conditions:--
+1) Different no of parameters...
+2) If no of parameters are same then check for the datatype...
+3) check for the Sequence of Parameters..
+
+
+ex :-- class Addition{
+
+	void add(){......} // same name 0 arguments
+
+	void add(int a, String b){......} // same name with difference no.of parameter
+	
+	void add(String b, int a){.....} // same name, same no of arguments but difference in sequence...
+
+
+}
+
+
+method ---> void breakFast(){  }
+		void breakFast(String name){  }
+			float breakFast(price) {}
+				name price quantity price per head {}
+
+Can we overload main() or not???
+		
+
