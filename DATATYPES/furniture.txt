@@ -1,0 +1,22 @@
+class table {
+	public static void main(Strings [] args)
+	    {
+		byte nooflegs= 65;
+		short s = 30000;
+		int i = 123456789;
+		long l = 123456789078963l;
+		char c = 'A';
+		float f = 1.123456;
+		double d = 1.123456789456d;
+		boolean b = true;
+		System.out.println(nooflegs);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(c);
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(b);
+
+}
+}
