@@ -1,0 +1,19 @@
+/* About loops :
+
+The block of code is executed repeatedly until the condition evaluates true...
+
+1) for loop:- The block of code is executed repeatedly until the condition evaluates true...
+		syntax: for(initialization;condition;increment / decrement)
+				{ statements;}
+*/
+
+public class Calculattion {  
+     public static void main(String[] args) {  
+// TODO Auto-generated method stub  
+        
+     for(int j = 1; j<=10; j++) {  
+       System.out.println(j);  
+}  
+ 
+}  
+}  

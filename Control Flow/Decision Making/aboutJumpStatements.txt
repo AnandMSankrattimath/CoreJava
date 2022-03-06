@@ -1,0 +1,39 @@
+/* aboutJumpStatemets
+
+break:-- It breaks the current flow of the program. Gives the control to the next statement outside of the loop.
+	public class BreakExample {  
+  
+          public static void main(String[] args) {  
+	// TODO Auto-generated method stub  
+	for(int i = 0; i<= 10; i++) {  
+		System.out.println(i);  
+		if(i==6) {  
+		break;  
+			}  
+		}  
+	}  
+}  
+
+
+
+
+continue:-- It skips the specific part of the loop and continue the next statement in the loop.
+
+   public class ContinueExample {  
+  
+     public static void main(String[] args) {  
+     // TODO Auto-generated method stub  
+  
+          for(int i = 0; i<= 2; i++) {  
+  
+            for (int j = i; j<=5; j++) {  
+  
+                 if(j == 4) {  
+                   continue;  
+                      }  
+              System.out.println(j);  
+           }  
+        }  
+     }  
+  
+}  

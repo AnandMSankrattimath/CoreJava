@@ -1,0 +1,16 @@
+Inheritance --> Accessing the data from one class to another class. note --> must be Same class/object..
+child class inheritce the properties from base/ parent class.
+
+syntax :--> child class extends parent class. 
+
+In the execution time JVM calls the parent class constructor first and then child class..(Implicitly)
+
+By explicitly developer also call the parent class constructor using "super();".
+
+super() --> 1) used to call the parent class constructor.
+	    2) only one super and it must be first executable statement...note : can't call multiple super statements.
+
+JAVA doesn't supports multiple inheritance...
+
+TASK::-->
+1) Animal

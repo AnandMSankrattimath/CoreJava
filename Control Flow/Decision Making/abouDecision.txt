@@ -1,0 +1,66 @@
+/* Control flow ---> Compiler will execute the code from top to bottom. In Java the statements in the code are executed according to the order in which they apper.
+Java provides the statements that can control the flow.
+In java provides three types of control flow....
+1) Decision Making:
+	i) If statement.
+	ii)switch statement.
+2)Loop statements
+	a)do while loop
+	b)while loop
+	c)for loop
+	d)for-each loop
+3)Jump statemants
+	*)break statements	
+	*)continue statements
+
+1) Decison Making:----- It decides  which statement  to execute and when.It evaluates boolean expression...
+	1)If statement :-- Used to evaluate the condition.
+		a)simple if --> Simple statement to be executed.
+			syntax : if(condition){
+					satements;
+				 }
+		b) if-else if --> if condition is true it will enter the code and execute the statements if not else is executed.
+			syntax : if(condition)
+					{
+						statement1;
+					}
+				else
+					{
+						statements2;
+					}
+		c)if else if ladder --> it follows the if chain.
+
+				syntax : if(condition)
+						{ statement1; }
+					else if(condition)
+						{ statment2;}
+					else
+					{ statement;}
+
+		4)Nested if --> If within the if.
+				syntax : if(condition)
+						{ statements;
+					if (condition)
+						{statement;}
+					else
+					    	{statement;} }
+
+	2) switch statement:---> It is similar to the if else statements. The switch statements contains multiple block of code called
+				as cases(No duplicate cases are allowed) and a single case is executed when the condition is satisfyies.
+				syntax : switch(condition)
+						{
+						case 1: statment;
+						break;
+						case 2: statement;
+						break;
+						""
+						""
+						case n: statement;
+						break;
+						default:
+							default statement;
+						}
+
+*/
+
+
