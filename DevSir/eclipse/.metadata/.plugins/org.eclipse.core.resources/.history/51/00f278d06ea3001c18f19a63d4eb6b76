@@ -1,0 +1,12 @@
+package com.anand.oops.polymorphism;
+
+public class Poly {
+	
+	
+	// two types
+	//1)compile time poly -- method overloading...
+	//2)runtime poly -- methodOverriding...
+	
+	//Fully qualified name = package name + class name..
+	//Interview -- explain all about the concept which you know....
+}

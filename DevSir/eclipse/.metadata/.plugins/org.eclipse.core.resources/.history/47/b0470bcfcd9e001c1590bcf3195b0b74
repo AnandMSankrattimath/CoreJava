@@ -1,0 +1,21 @@
+package TesterClass;
+
+import com.xworkz.DTO.brtc.brtcDTO.BrtcDTO;
+
+public class BrtcDTOTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			BrtcDTO br1 = new BrtcDTO();
+			System.out.println(br1);
+			
+			        BrtcDTO br2 = new BrtcDTO();
+			        br2.setBusNo("88A");
+			        br2.setRoute("Rajakumar Road");
+			        br2.setSourcePointString("Bashyam Circle");
+			        br2.setDestinationPointString("Majestick");
+			        System.out.println(br2);
+	}
+
+}

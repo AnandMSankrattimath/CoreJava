@@ -1,0 +1,14 @@
+package com.xworkz.garbagecollector;
+
+public class GarbageCollector {
+	public static void main(String[] args) {
+		GarbageCollector gCollector = new GarbageCollector();
+		GarbageCollector gCollector2 = new GarbageCollector();
+		GarbageCollector gCollector3 = new GarbageCollector();
+		System.out.println(gCollector.toString());
+		System.gc();
+		System.out.println(gCollector.toString());
+		
+	}
+
+}

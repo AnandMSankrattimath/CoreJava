@@ -1,0 +1,41 @@
+package com;
+public class Fan{
+	public byte noOfwings;
+	public String name;
+	public String color;
+
+	public Fan(){
+	System.out.println("Invoking default fan constructor");
+	
+	//Fan f1 = new Fan();
+        }
+
+	Fan(String bname){
+	System.out.println("Invoking single Param Constructor");
+	name = bname;
+        }
+
+	Fan(byte wings,String bname,String col){
+	this(bname); // calling another constructor in constructor
+	
+	System.out.println("Invoking parameter constructor");
+	noOfwings = wings;
+	color = col;	
+}
+
+@Override
+	public String toString(){
+	return "NoOfWings = "+noOfwings+"\t Brand name = "+name+"\t Color = "+color;
+}
+
+
+public static void main(String args[]){
+		Fan fan1= new Fan();
+		System.out.println(fan1);
+	
+		Fan fan2 = new Fan((byte)3,"Usha","black");
+		System.out.println(fan2);
+
+}
+
+}

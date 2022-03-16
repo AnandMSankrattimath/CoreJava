@@ -1,0 +1,24 @@
+package com.anand.oops.inheritance;
+
+public class CarTester  {
+public static void main(String[] args) {
+	SportsCar sc = new SportsCar();
+	sc.start();
+	sc.drive();
+	sc.maxSpeed("250kmh");
+	sc.abs();
+	sc.stop();
+	
+}
+}
+
+Typecast = 
+// upcasting -- convert child class obj into the parent class reference.
+// implementation takes place in the parent class.
+// you can call only the parent class properties.
+// ex : Car sc = new SportsCar();
+
+
+
+
+//downcasting -- 

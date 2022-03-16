@@ -1,0 +1,10 @@
+package com.xworkz.garbagecollector;
+
+public class GarbageCollector {
+	public static void main(String[] args) {
+		GarbageCollector gCollector = new GarbageCollector();
+		System.out.println("This is program");
+		
+	}
+
+}

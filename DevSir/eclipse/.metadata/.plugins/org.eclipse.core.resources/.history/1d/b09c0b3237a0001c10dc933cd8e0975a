@@ -1,0 +1,46 @@
+package com.xworkz.DTO.socialmedia.socialmediaDTO;
+
+public class WrapperClass {
+// for each primitive type we have corrosponding wrapper class.
+	// Java is not purely object oriented langauge to make this purely we have wrapper class.
+	/*
+	 * primitive datatype						WrapperClass
+	 * byte												Byte
+	 * 
+	 * short											Short
+	 * 
+	 * int												Integer
+	 * 
+	 * long												Long
+	 *
+	 * 
+	 * float											Float
+	 * 
+	 * double											Double	
+	 * 
+	 * char												Charecter
+	 * 
+	 * boolean											Boolean
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * */
+}

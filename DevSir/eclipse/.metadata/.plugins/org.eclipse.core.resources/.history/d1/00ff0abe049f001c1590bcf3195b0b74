@@ -1,0 +1,62 @@
+package com.xworkz.DTO.voter.voterDTO;
+
+public class VoterDTO {
+
+		private String name;
+		private String dob;
+		private String address;
+		private String voterID;
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public String getDob() {
+			return dob;
+		}
+		public void setDob(String dob) {
+			this.dob = dob;
+		}
+		public String getAddress() {
+			return address;
+		}
+		public void setAddress(String address) {
+			this.address = address;
+		}
+		
+		public String getVoterID() {
+			return voterID;
+		}
+		public void setVoterID(String voterID) {
+			this.voterID = voterID;
+		}
+		
+		public String toString(){
+			return "Voter Details  Name : "+name+" ID :"+voterID+ " DOB : "+dob+ " Address :"+address;
+			
+		}
+		@Override
+		public int hashCode() {
+			return voterID;
+		}
+		@Override
+		public boolean equals(Object obj) {
+			if (this == obj)
+				return true;
+			if (obj == null)
+				return false;
+			if (getClass() != obj.getClass())
+				return false;
+			VoterDTO other = (VoterDTO) obj;
+			if (voterID == null) {
+				if (other.voterID != null)
+					return false;
+			} else if (!voterID.equals(other.voterID))
+				return false;
+			return true;
+		}
+		
+		
+}
+   

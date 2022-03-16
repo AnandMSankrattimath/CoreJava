@@ -1,0 +1,5 @@
+package com.xworkz.garbagecollector;
+
+public class GarbageCollector {
+
+}

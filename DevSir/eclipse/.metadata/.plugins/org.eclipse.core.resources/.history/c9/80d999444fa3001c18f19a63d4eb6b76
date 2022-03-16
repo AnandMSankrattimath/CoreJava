@@ -1,0 +1,10 @@
+package com.xworkz.WrapperClass;
+
+public class WrapperClass {
+	
+	int i = 10;
+	
+	//Boxing - converting primitive datatype to corosponding its non-primitive datatype.
+	Integer i1 = i;
+
+}

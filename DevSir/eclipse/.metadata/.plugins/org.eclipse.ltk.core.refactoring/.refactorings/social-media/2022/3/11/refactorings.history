@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;social-media/src/CourtCaseDTO.java&apos; to &apos;CourtCaseDTOTester.java&apos;" description="Rename resource &apos;CourtCaseDTO.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/CourtCaseDTO.java" name="CourtCaseDTOTester.java" stamp="1646656481676" updateReferences="true"/>
+</session>

@@ -1,0 +1,48 @@
+package com.xworkz.DTO.atm.atmDTO;
+
+public class ATMDTO {
+	
+	private String typeOfCard;
+	private int deposite;
+	private int witdrawal;
+	
+	public ATMDTO(){
+		
+	}
+
+	
+
+	public String getTypeOfCard() {
+		return typeOfCard;
+	}
+
+	public void setTypeOfCard(String typeOfCard) {
+		this.typeOfCard = typeOfCard;
+	}
+
+	public int getDeposite() {
+		return deposite;
+	}
+
+	public void setDeposite(int deposite) {
+		this.deposite = deposite;
+	}
+
+	public int getWitdrawal() {
+		return witdrawal;
+	}
+
+	public void setWitdrawal(int witdrawal) {
+		this.witdrawal = witdrawal;
+	}
+	
+	public String toString(){
+		return "Type Of Card : "+typeOfCard+ ", Deposite : "+deposite+", Withdrawl : "+witdrawal;
+		
+	}
+	@Override
+	public int hashCode() {
+		return deposite;
+	}
+
+}

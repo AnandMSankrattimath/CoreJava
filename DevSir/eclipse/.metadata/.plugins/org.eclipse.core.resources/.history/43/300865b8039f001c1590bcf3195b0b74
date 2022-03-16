@@ -1,0 +1,29 @@
+package com.xworkz.DTO.telecommunications;
+
+public class TeleDTO {
+	private int deviceId;
+	private int noOfDevices;
+	private String typeOfDeiveString;
+	public TeleDTO() {
+		
+	}
+	public int getNoOfDevices() {
+		return noOfDevices;
+	}
+	public void setNoOfDevices(int noOfDevices) {
+		this.noOfDevices = noOfDevices;
+	}
+	public String getTypeOfDeiveString() {
+		return typeOfDeiveString;
+	}
+	public void setTypeOfDeiveString(String typeOfDeiveString) {
+		this.typeOfDeiveString = typeOfDeiveString;
+	}
+	@Override
+	public String toString() {
+		return "TeleDTO [noOfDevices=" + noOfDevices + ", typeOfDeiveString=" + typeOfDeiveString + "]";
+	}
+	
+	
+
+}

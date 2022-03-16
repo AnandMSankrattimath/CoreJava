@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ProgrammingAptitude/src/com/anand/controlFlow&apos; to &apos;decisionMaking&apos;" description="Rename resource &apos;controlFlow&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/anand/controlFlow" name="decisionMaking" stamp="1647245901018" updateReferences="true"/>
+</session>

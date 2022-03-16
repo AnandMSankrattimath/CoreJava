@@ -1,0 +1,17 @@
+package com.xworkz.string;
+
+public class StringPool {
+	
+	public static void main(String[] args) {
+		// string is a special type of class in java.
+		String nameString = "Anand"; // string literals &&& String constant pool
+		
+		String nameString2 = new String("Anand"); // using new keyword
+		// string objects are immutable with string literals not with new keyword.
+		// why it is immutable reason:::(can't modified)
+		// nameString ="ABC"; // try to change the string literal but in memory section,
+		// now new object will be created  for "ABC";
+		//
+	}
+
+}

@@ -1,0 +1,11 @@
+package TesterClass;
+import com.xworkz.DTO.danceclass.danceclassDTO.DanceClassDTO;
+
+public class DanceClassDTOTest {
+	public static void main(String[] args) {
+		DanceClassDTO dance = new DanceClassDTO();
+		dance.setSchoolNo(12);
+		System.out.println(dance);
+	}
+
+}

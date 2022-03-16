@@ -1,0 +1,19 @@
+package com.xworkz.WrapperClass;
+
+public class WrapperClass {
+	public static void main(String[] args) {
+		
+	
+	int i = 10;
+	
+	//Boxing - converting primitive datatype to corosponding its non-primitive datatype.
+	Integer i1 = i;//auto-boxing
+
+System.out.println(i1.toString());
+// System.out.println(i.toString()); Cannot invoke toString() to primitive datatype...
+byte b = 20;
+Byte byte1 = b;
+System.out.println(byte1.toString());
+System.out.println(byte1.hashCode());
+}
+}

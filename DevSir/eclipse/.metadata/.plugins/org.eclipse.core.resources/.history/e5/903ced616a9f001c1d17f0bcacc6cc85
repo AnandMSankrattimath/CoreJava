@@ -1,0 +1,5 @@
+package com.anand;
+import com.anand.*;
+public class TableFan extends Fan {
+
+}

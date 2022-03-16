@@ -1,0 +1,14 @@
+package TesterClass;
+
+import com.xworkz.DTO.brtc.brtcDTO.BrtcDTO;
+
+public class BrtcDTOTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			BrtcDTO br1 = new BrtcDTO();
+			System.out.println(br1);
+	}
+
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class trinity {
+public static void main(String[] args) {
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("Enter the number of star to be printed");
+	int a = scanner.nextInt();
+	for(int i=1;i<=a;i++) {
+		System.out.println("");
+		for(int j=0;j<i;j++) {
+			for(int k=0;k<j;++k)
+			System.out.println("*");	
+		}
+		
+	}
+	
+
+	
+	
+	
+}
+}
+

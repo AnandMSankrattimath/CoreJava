@@ -1,0 +1,14 @@
+package com.anand.decisionMaking.ControlFlow;
+
+import javax.security.auth.callback.ConfirmationCallback;
+
+public class EvenAndOdd {
+	public static void main(String[] args) {
+		for(int number=1;number<=100;number++) {
+			if(number%2==0) {
+				int even[] = number;
+			}
+		}
+	}
+
+}

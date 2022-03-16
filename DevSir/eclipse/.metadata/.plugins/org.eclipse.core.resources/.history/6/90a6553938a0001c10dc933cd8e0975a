@@ -1,0 +1,46 @@
+package com.xworkz.DTO.socialmedia.socialmediaDTO;
+
+import java.awt.Taskbar;
+
+public class WrapperClass {
+// for each primitive type we have corrosponding wrapper class.
+	// Java is not purely object oriented langauge to make this purely we have wrapper class.
+	/*
+	 * primitive datatype						WrapperClass
+	 * byte												Byte
+	 * 
+	 * short											Short
+	 * 
+	 * int												Integer
+	 * 
+	 * long												Long
+	 *
+	 * 
+	 * float											Float
+	 * 
+	 * double											Double	
+	 * 
+	 * char												Charecter
+	 * 
+	 * boolean											BooleaN
+	 * 
+	 * wrapper class uses:--
+	 * 1)to make java as a purely object oriented
+	   2) to convert nonprimitive to primitive type.
+	 * 
+	 * task :
+	 * convert string to non primitive data type.
+	 * 
+	 * */
+	String phoneNumber= "7975588346";
+	long contactNo = Long.parseLong(phoneNumber); // parsing is a process of converting string type to corrosponding datatype or primitive datatype.
+	
+	
+	
+	
+	
+	
+	
+	
+}
+

@@ -1,0 +1,19 @@
+package com.xworkz.aboutHashCode;
+public class HashContractMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashContract h1 = new HashContract();
+		h1.setId(12);
+		h1.setNameString("Anand");
+		
+		HashContract h2 = new HashContract();
+		h2.setId(12);
+		h2.setNameString("Anand");
+		
+		System.out.println("Shallow Compare is "+(h1 == h2)); 
+		
+	}
+
+}

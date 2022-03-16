@@ -1,0 +1,13 @@
+package com.anand.oops.inheritance;
+
+public class CarTester  {
+public static void main(String[] args) {
+	SportsCar sc = new SportsCar();
+	sc.start();
+	sc.drive();
+	sc.maxSpeed("250kmh");
+	sc.abs();
+	sc.stop();
+	
+}
+}

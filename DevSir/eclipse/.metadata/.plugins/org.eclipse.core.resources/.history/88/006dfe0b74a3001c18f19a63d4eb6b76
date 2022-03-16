@@ -1,0 +1,20 @@
+package com.anand.decisionMaking.ControlFlow;
+public class AboutControlFlow {
+	public static void main(String[] args) {
+		// Controlling the flow of execution...
+		//3types
+		//1)Conditional statements
+		//2)
+		/*Task input 1 -- output --Monday(switch Case);
+		 * task 2: for months..
+		 * task 3: print even and odd from 1 to 100;
+		 * task 4: fibonacci series using for loop;
+		 * task5: print all the even and odd between the 1-100
+		 * task6: write the program to sort the array (in ascending or in descending)
+		 * 
+		 * 
+		 * */
+		
+	}
+
+}

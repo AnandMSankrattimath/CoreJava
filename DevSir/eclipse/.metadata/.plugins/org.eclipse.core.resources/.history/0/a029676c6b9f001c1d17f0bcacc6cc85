@@ -1,0 +1,17 @@
+package com;
+
+public class TableFan extends Fan {
+	int noOfWings;
+	
+	public TableFan() {
+		// TODO Auto-generated constructor stub
+		super();
+		
+		System.out.println("Invoking TableFan default constructor");
+	}
+
+	
+	public static void main(String[] args) {
+		TableFan t1 = new TableFan();
+	}
+}

@@ -1,0 +1,19 @@
+package com.anand.oops.inheritance;
+
+public class SportsCar extends Car {
+	public String speed;
+	
+	public void abs() {
+		System.out.println("You are in Sports car & it has high level breaking system");
+	}
+	
+	public void safty() {
+		System.out.println("SportsCar taken other safty measures.");
+	}
+	
+	public String maxSpeed(String speeds) {
+		speed = speeds;
+		System.out.println("Sports car has a maxSpeed to "+speeds);
+		return speeds;
+	}
+}

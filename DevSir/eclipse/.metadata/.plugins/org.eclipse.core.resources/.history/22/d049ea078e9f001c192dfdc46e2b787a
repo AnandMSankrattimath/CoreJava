@@ -1,0 +1,8 @@
+package com.anand.oops.inheritance;
+
+public class CarTester  {
+public static void main(String[] args) {
+	SportsCar sc = new SportsCar();
+	sc.d
+}
+}

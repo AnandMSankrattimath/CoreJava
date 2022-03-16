@@ -1,0 +1,64 @@
+package com.xworkz.DTO.yoga.yogaDTO;
+
+public class YogaDTO {
+	
+	private int yogaCenterNo;
+	private String nameString;
+	private String timingString;
+	private String typeOfClassString;
+	public YogaDTO() {
+		
+	}
+	public int getYogaCenterNo() {
+		return yogaCenterNo;
+	}
+	public void setYogaCenterNo(int yogaCenterNo) {
+		this.yogaCenterNo = yogaCenterNo;
+	}
+	public String getNameString() {
+		return nameString;
+	}
+	public void setNameString(String nameString) {
+		this.nameString = nameString;
+	}
+	public String getTimingString() {
+		return timingString;
+	}
+	public void setTimingString(String timingString) {
+		this.timingString = timingString;
+	}
+	public String getTypeOfClassString() {
+		return typeOfClassString;
+	}
+	public void setTypeOfClassString(String typeOfClassString) {
+		this.typeOfClassString = typeOfClassString;
+	}
+	@Override
+	public String toString() {
+		return "YogaDTO [yogaCenterNo=" + yogaCenterNo + ", nameString=" + nameString + ", timingString=" + timingString
+				+ ", typeOfClassString=" + typeOfClassString + "]";
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + yogaCenterNo;
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		YogaDTO other = (YogaDTO) obj;
+		if (yogaCenterNo != other.yogaCenterNo)
+			return false;
+		return true;
+	}
+	
+	
+
+}

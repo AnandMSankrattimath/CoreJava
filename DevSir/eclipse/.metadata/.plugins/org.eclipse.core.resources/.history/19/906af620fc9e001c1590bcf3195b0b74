@@ -1,0 +1,5 @@
+package com.xworkz.DTO.danceclass.danceclassDTO;
+
+public class DanceClassDTO {
+
+}

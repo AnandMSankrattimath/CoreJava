@@ -1,0 +1,21 @@
+package com.anand.decisionMaking.ControlFlow;
+
+public class SortArrayInAscendingOrder {
+	public static void main(String[] args) {
+		int array[] = {2,5,3,8,7,1,4,6};
+		for (int i=0;i<array.length;i++) {
+			for(int j=0+i;j<array.length;j++) {
+				int temp;
+				if(array[i]>array[j]) {
+					temp = array[i];
+					array[i]=array[j];
+					array[j]=temp;
+				}
+			}
+		}
+		for(int i=0;i<array.length;i++) {
+			System.out.print(array[i]+",");
+		}
+	}
+
+}

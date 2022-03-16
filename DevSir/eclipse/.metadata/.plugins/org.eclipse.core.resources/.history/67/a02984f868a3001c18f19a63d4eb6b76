@@ -1,0 +1,24 @@
+package com;
+
+public class TableFan extends Fan {
+	int noOfButtons;
+	
+	public TableFan() {
+		// TODO Auto-generated constructor stub
+		
+		System.out.println("Invoking TableFan default constructor");
+	}
+	
+	public TableFan(int buttons) {
+		super(buttons,"Panasonic" ,"grey");
+		System.out.println("Parametrized constructor");
+		noOfButtons = buttons;
+	}
+
+	
+	public static void main(String[] args) {
+		TableFan t1 = new TableFan(3);
+		System.out.println(t1.noOfButtons);
+		System.out.println(t1);
+	}
+}

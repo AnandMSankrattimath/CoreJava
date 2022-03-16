@@ -1,0 +1,16 @@
+package com.anand.decisionMaking.ControlFlow;
+public class AboutControlFlow {
+	public static void main(String[] args) {
+		// Controlling the flow of execution...
+		//3types
+		//1)Conditional statements
+		//2)
+		/*Task input 1 -- output --Monday(switch Case);
+		 * 
+		 * 
+		 * 
+		 * */
+		
+	}
+
+}

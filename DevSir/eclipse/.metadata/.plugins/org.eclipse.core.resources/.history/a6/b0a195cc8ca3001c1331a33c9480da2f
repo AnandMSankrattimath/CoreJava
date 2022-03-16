@@ -1,0 +1,15 @@
+package com.anand.decisionMaking.ControlFlow;
+
+public class Fibonacci {
+	public static void main(String[] args) {
+		int firstNumber = 0;
+		int secondNumber = 1;
+		for(int i=0;i<=100;i++) {
+			int nextNumber = firstNumber + secondNumber;
+			System.out.print("The Fibonacci numbers are " +nextNumber+",");
+			firstNumber=nextNumber;
+			secondNumber=nextNumber;
+		}
+	}
+
+}

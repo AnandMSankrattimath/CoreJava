@@ -1,0 +1,13 @@
+package com.xworkz.string;
+
+public class StringPool {
+	
+	public static void main(String[] args) {
+		// string is a special type of class in java.
+		String nameString = "Anand"; // string literals
+		
+		String nameString2 = new String("Anand"); // using new keyword
+		// string objects are immutable..
+	}
+
+}
