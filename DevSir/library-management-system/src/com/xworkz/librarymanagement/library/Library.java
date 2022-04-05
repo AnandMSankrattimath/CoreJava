@@ -15,6 +15,8 @@ public class Library {
 	
 	//creating book details method
 	//   ;;;;;;;;;CREATE OPERATION;;;;;;;;
+	
+	
 	public boolean createBookDetails(BookDTO dto) {
 		System.out.println("Inside the createBookDetails()");
 		System.out.println("Args : Book Details");
@@ -30,6 +32,12 @@ public class Library {
 		System.out.println("End of the createBookDetails()");
 		return isBookAdded;	
 	}
+	
+	
+	
+	
+	//::::::::READ OPERATION:::::::::
+	
 	
 	//get all the details at once....
 	public BookDTO getAllBookDetails() {
@@ -64,6 +72,10 @@ public class Library {
 		return bDTO;
 	}
 	
+	
+	//:::::::::UPDATE OPERATION::::::::
+	
+	
 	//update book edition by book id
 	
 	public boolean updateBookEditionByBookId(int id,int edition) {
@@ -83,6 +95,10 @@ public class Library {
 		System.out.println("End of the updateBookEditionByBookId()");
 		return isBookEditionUpdated;
 	}
+	
+	
+	//::::::::DELETE OPERATION::::::::::
+	
 	
 	// Delete the book details by Book Id
 	
