@@ -1,0 +1,159 @@
+1) Creating constants in java--
+There are two ways :-
+i) by using final keyword we can create the constants
+ii) by using Enum class.
+
+2)In java there are 2 types of datatypes present 
+i) Primitive Datatypes
+ii)Non-primitive datatypes.
+
+3)To know or tell the java to the kind of data (type of value), we use datatypes.
+
+4)Naming conventions are:
+i) Pascal -- for Classes
+ii)camelCase -- for methods,variables etc
+
+5)Varibale initialization is the process to initialize the value into the varibale.
+
+6)Array -- It is an collection of similar type of data.
+
+7)No, can't pass the negative size in array.
+
+8)In heap memory.
+
+9)Advantages of Array: 
+i) Array is used to store the similar type of data.
+ii)Array stores the data in continuous memry location.
+iii) Array has a property called length. By using this property we can find ths size of data & which is also helps to print the arra data.
+
+10)Anonymous array  is a way of declaring the array without array name.
+ex:  void get(int [10]){
+	System.out.println("Anonymous array");
+}
+
+11)WAP to print the array elements.
+class PrintArray{
+public static void main(String [] args){
+int [] elements = new int[2];
+elements[0]=11;
+elements[1]=22;
+for(int i=0;i<elements.length;i++){
+System.out.println(elements[i]);
+}
+}
+}
+12) WAP sor the array
+public class SortAsc {    
+    public static void main(String[] args) {        
+            
+        //Initialize array     
+        int [] arr = new int [] {5, 2, 8, 7, 1};     
+        int temp = 0;    
+            
+        //Displaying elements of original array    
+        System.out.println("Elements of original array: ");    
+        for (int i = 0; i < arr.length; i++) {     
+            System.out.print(arr[i] + " ");    
+        }    
+            
+        //Sort the array in ascending order    
+        for (int i = 0; i < arr.length; i++) {     
+            for (int j = i+1; j < arr.length; j++) {     
+               if(arr[i] > arr[j]) {    
+                   temp = arr[i];    
+                   arr[i] = arr[j];    
+                   arr[j] = temp;    
+               }     
+            }     
+        }    
+          
+        System.out.println();    
+            
+        //Displaying elements of array after sorting    
+        System.out.println("Elements of array sorted in ascending order: ");    
+        for (int i = 0; i < arr.length; i++) {     
+            System.out.print(arr[i] + " ");    
+        }    
+    }    
+}    
+
+13)Wap to two given array are same or not.
+public class CheckArraysEqual {
+    public static void main(String[] args)
+    {
+        
+        int a[] = { 1, 2, 3 };
+  
+        
+        int b[] = { 1, 2, 3 };
+  
+        
+        
+        boolean result = Arrays.equals(a, b);//using equals method to comapre two array.
+        if (result == true) {
+          
+            System.out.println("Two arrays are equal");
+        }
+        else {
+          
+            System.out.println("Two arrays are not equal");
+        }
+    }
+}
+
+
+14)WAP throw ArrayOutOfBoundsException.
+class ArrayException{
+public static void main(String [] args){
+try{
+int [] elements = new int[2];
+elements[0]=11;
+elements[1]=22;
+System.out.println(elements[2]);
+}catch(Exception e){
+	e.printStackTrace();
+}
+}
+
+15) Before intialization of an array we must declare an array with the size(reserved memory).
+ If we do not initialize the array the reserved memory is going to waste.
+ 
+16)WAP largest & smallest number in given array.
+
+
+
+17) static keyword - It is keyword which has the special meaning.
+	static variable - These are the variables which are declared with the help of static keyword.These varibales are also called as the class variables.
+	static method - writing the method signature with the help of static keyword it is called static method.
+	So, these static varibales and methods can able access without creating the object of that class.
+	
+18)We can overload and override the static methods in Java.
+
+19) why main() is static?
+--In java the program execution is starts with main(). static is helps to execute the program without creating the objects.
+Hence, main() method always execute first beacuse of static keyword.
+
+20)Static block is set of instruction which executes when the class is loaded into memory.
+
+21) It is depends on the java version.
+
+22) Constructor chaining - calling one cnstructor into the another constructor.
+
+23)constructor is a special type of method which is used to initialize the values.
+It has same name as the classname and which returns nothing even void.
+
+24) constructor cannot be a static because constrctor called when the object is created. but static is called when the class is loaded into the memory.
+
+
+25) If you keep return for constructor it will throw an error called stackOverflow.
+
+26)In inheritance child class can access the properties from its parent class but reverse of it we can go for the downcasting.
+
+27) syntax : ParentClass reference = new ChildClass();
+
+28) class is in compile time. instance/object in run time.
+class does not have the memory until the object is created.
+
+29)In 5 ways we can create the instance as of now I only known about using new keyword.
+
+30)If you create the instance of class the class members will get the memory.
