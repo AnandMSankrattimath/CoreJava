@@ -127,7 +127,7 @@ System.out.println(elements[2]);
 	static method - writing the method signature with the help of static keyword it is called static method.
 	So, these static varibales and methods can able access without creating the object of that class.
 	
-18)We can overload and override the static methods in Java.
+18)Yes,We can overload and override the static methods in Java.
 
 19) why main() is static?
 --In java the program execution is starts with main(). static is helps to execute the program without creating the objects.
@@ -135,7 +135,9 @@ Hence, main() method always execute first beacuse of static keyword.
 
 20)Static block is set of instruction which executes when the class is loaded into memory.
 
-21) It is depends on the java version.
+21) Can Interface has static methods?
+It is depends on the java version.
+But I have used only the abstract methods till now.
 
 22) Constructor chaining - calling one cnstructor into the another constructor.
 
