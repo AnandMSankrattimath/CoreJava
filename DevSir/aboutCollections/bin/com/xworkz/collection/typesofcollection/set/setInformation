@@ -1,0 +1,12 @@
+set working internally:
+set is to store unique data.
+Hash set working:
+it does not allow the duplicate data?(in memory side)
+-->when hashSet() is called it will by default it calls the HashMap().
+in HashMap()--data is stored in the association of key.
+i.e key --- value.
+return type is object
+put() return type is object.
+
+HashMap.put(key,value);-- to add into map we use put().
+key is our data   value is whether the data is PRESENT or not.

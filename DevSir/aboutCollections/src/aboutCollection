@@ -1,0 +1,26 @@
+ABOUT COLLECTION -- 08-04-2022
+
+
+Collection is also called as Java Collection API
+API - collection of interfaces,methods,classes --concept abstraction.
+Application Programming Interface - backbone is abstraction.
+
+Array has 0 methods
+Array has only one property called "length"
+
+disadvantages: 
+1)fixed size
+2)doesnot have the inbuilt method(0 methods)
+3)stored in the linear pattern it is difficult to manage the data.
+
+To overcome these common problems we use Collections.
+
+collection -- not stored the primitve data type...
+
+collection has the same work done by the array but collection stored only object type data.
+If we want to stores the primitive type of data as we did in array we have to use the wrapper class.
+collection is the purely object oriented.
+Collection is a framework in JAVA and it is an Interface to manage the data in a better way as compare to array.
+FrameWork:-ReadyMade utility. 
+
+collection has the 11 methods.Use whenever we need.No restrictions.
